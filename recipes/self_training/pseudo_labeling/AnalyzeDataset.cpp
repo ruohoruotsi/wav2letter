@@ -12,9 +12,8 @@
 
 #include "recipes/self_training/pseudo_labeling/Dataset.h"
 
-#include <flashlight/flashlight/meter/EditDistanceMeter.h>
+#include <flashlight/fl/meter/EditDistanceMeter.h>
 #include <gflags/gflags.h>
-#include <glog/logging.h>
 
 DEFINE_string(infile, "", "Input path for pseudo-labeled lst file");
 DEFINE_string(groundtruthfile, "", "Input path for ground truth lst file");
